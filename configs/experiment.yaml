@@ -1,0 +1,13 @@
+split:
+  train_months: [0, 1, 2, 3]
+  val_months: [4]
+  cal_months: [5]
+  test_months: [6, 7]
+alphas: [0.10]               # primary. 0.20 and 0.05 are robustness-only.
+primary_alpha: 0.10
+fpr_operating_point: 0.05    # threshold chosen on VALIDATION negatives only
+seed: 20260101
+min_positives_for_group_inference: 30   # screening warning threshold, not a guarantee
+confidence_level: 0.95
+n_jobs: 4
+output_dir: results

@@ -1,0 +1,19 @@
+lightgbm:
+  # Explicit, small, prespecified grid. Selection metric: validation average precision.
+  fixed: {objective: binary, n_estimators: 1000, subsample_freq: 1, verbose: -1,
+          deterministic: true, force_row_wise: true}
+  early_stopping_rounds: 50
+  grid:
+    - {learning_rate: 0.05, num_leaves: 15, min_child_samples: 100, subsample: 0.8, colsample_bytree: 0.8, scale_pos_weight: 1}
+    - {learning_rate: 0.05, num_leaves: 31, min_child_samples: 100, subsample: 0.8, colsample_bytree: 0.8, scale_pos_weight: 1}
+    - {learning_rate: 0.05, num_leaves: 63, min_child_samples: 50,  subsample: 0.8, colsample_bytree: 0.8, scale_pos_weight: 1}
+    - {learning_rate: 0.10, num_leaves: 15, min_child_samples: 100, subsample: 0.8, colsample_bytree: 0.8, scale_pos_weight: 1}
+    - {learning_rate: 0.05, num_leaves: 15, min_child_samples: 100, subsample: 0.8, colsample_bytree: 0.8, scale_pos_weight: 10}
+    - {learning_rate: 0.05, num_leaves: 31, min_child_samples: 100, subsample: 0.8, colsample_bytree: 0.8, scale_pos_weight: 10}
+logreg:
+  C_grid: [0.01, 0.1, 1.0, 10.0]
+  class_weight_grid: [null, balanced]
+  max_iter: 2000
+conformal:
+  score: lac                 # 1 - p(true label). APS deferred (see docs/decisions.md D-007).
+  methods: [marginal, class_conditional]

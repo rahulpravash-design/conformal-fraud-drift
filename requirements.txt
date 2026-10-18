@@ -1,0 +1,12 @@
+# Loose requirements; exact versions used for each run are recorded in
+# results/run_metadata/*.json. Tested with the versions in requirements-lock.txt.
+numpy
+pandas
+scikit-learn
+lightgbm
+scipy
+matplotlib
+pyyaml
+pyarrow
+joblib
+pytest

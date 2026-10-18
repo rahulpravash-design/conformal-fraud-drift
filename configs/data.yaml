@@ -1,0 +1,14 @@
+# Dataset configuration. Raw files are NOT in Git (CC BY-NC-ND 4.0, see data/README.md).
+data_dir: data/raw
+file_format: auto            # auto | csv | parquet
+variants: [Base, TypeI, TypeII, TypeIII, TypeIV, TypeV]
+primary_variant: Base
+label: fraud_bool
+time_column: month
+categorical_features: [payment_type, employment_status, housing_status, source, device_os]
+# Columns never used as model features (label and time index are always excluded).
+exclude_features: []
+# Group definitions are fixed BEFORE any data inspection (see docs/decisions.md D-004).
+groups:
+  primary:   {name: age_ge_50, column: customer_age, op: ">=", threshold: 50}
+  sensitivity: {name: age_gt_50, column: customer_age, op: ">", threshold: 50}
