@@ -17,3 +17,5 @@ Fallback venues are not recommended until the above is verified.
 Direct fetch of ijcnn.org failed (host unresolvable via WebFetch; proxy 403 via curl). Web search again returned the same split:
 workshop page 15 Jan 2027 vs third-party 31 Jan 2027; no regular-paper page limit, template, review, AI-policy or time zone found.
 Status unchanged: **UNVERIFIED**. Plan against 15 Jan 2027 until the main CFP is read by the researcher.
+
+2026-10-18 session 3: no new official evidence (ijcnn.org unresolvable by WebFetch; curl 000). Researcher: please paste the main-track CFP text. No track/workshop chosen yet; main conference track assumed, unconfirmed.

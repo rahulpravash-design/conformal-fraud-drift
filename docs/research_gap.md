@@ -34,3 +34,13 @@ Run these in Google Scholar / Semantic Scholar and record hits in `literature/li
 `"conformal prediction" "bank account fraud"` · `"conformal" "BAF" fraud fairness` · `"conformal prediction" fraud "temporal" coverage` ·
 `"Mondrian" conformal "distribution shift" tabular` · `"group-conditional coverage" "distribution shift"` · `Feedzai conformal`.
 Then open L09–L11 and fill the table. Gate A passes only if none answers RQ1–RQ3 on BAF.
+
+## Update 2026-10-18 (session 3) — search-snippet evidence only; NO full text opened (arxiv.org, mlr.press, feedzai.com fetches failed: DNS/proxy)
+| ID | Citation as found in search results (snippet level, UNVERIFIED) | What the snippet says | Still unknown |
+|---|---|---|---|
+| L09 | Chen, Gong, Cheng, Jin. "Temporal Graph Prototype-conditioned Conformal Prediction for Fraud Detection". KDD '26; arXiv 2608.15768 | Graph-based fraud CP with temporal treatment | datasets (BAF?), group coverage, workload; method details |
+| L11 | Almeida, Bravo, Bono, Bizarro, Figueiredo. "High Probability Risk Control Under Covariate Shift". COPA 2025, PMLR 266 (almeida25a) | LTT extended to covariate shift via importance weights; **synthetic fraud task** (FPR control) + image classification | whether BAF is used; no temporal/group coverage evidence seen |
+| – | Komarov. "Graph-Transformer Fraud Detection with Self-Supervised Pretraining and Conformal Risk Control", arXiv 2609.14234 | graph model + conformal risk control, corporate transaction benchmark | not tabular BAF per snippet |
+| – | NCPNet, arXiv 2507.02151 | non-exchangeable CP for temporal graphs (incl. IBM AML) | not fraud-tabular/group-focused per snippet |
+| L10 | Audited CP ... | not re-searched | everything |
+Interpretation: prior work on CP+fraud+temporal exists (graph setting). None of the snippets shows tabular BAF + chronological marginal/label/group coverage + review workload, but snippets cannot establish absence. **Verdict stays UNDETERMINED; no novelty claim.** Researcher action: open the arXiv/PMLR links above and fill the table; send PDFs if needed.
