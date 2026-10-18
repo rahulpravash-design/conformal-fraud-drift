@@ -17,3 +17,9 @@
 1. Obtain `Base.*`, run `audit_dataset.py`; fill `dataset_audit.md`; confirm `month` encoding, column names, age-group shares (settles `≥50` vs `>50`), duplicates; then freeze protocol v1.0.
 2. Run `train_baselines.py` + `run_split_conformal.py`; inspect leakage checks, calibration.json, per-month coverage (core experiment, Gate B).
 3. Read L09–L11 and run the literature queries; complete the gap table (Gate A).
+
+## Session 2 (2026-10-18)
+- Branch claude/nifty-pasteur-qwzlr8, base commit 8fe5427; 37 tests pass (fresh venv from requirements-lock.txt, synthetic fixture only).
+- github.com, kaggle.com, ijcnn.org: blocked/unresolvable from this sandbox. `data/raw/` empty. Only the official README text was readable via WebFetch (Kaggle is the stated route; no filenames; license text not retrievable).
+- Not done (blocked): dataset audit, split validation on real data, real experiment, paper reading, CFP verification. No results exist.
+- Windows download steps added to data/README.md.

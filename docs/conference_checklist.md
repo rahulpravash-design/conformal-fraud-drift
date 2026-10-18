@@ -12,3 +12,8 @@ Source of everything below: **web-search result summaries only**; ijcnn.org coul
 | Indexing (IEEE Xplore / Scopus) | not examined | UNVERIFIED | med | check prior-edition Xplore + Scopus source list; no future guarantee |
 Planning note: the original internal target (24 Jan 2027) would miss a 15 Jan deadline. Today is 2026-10-18, ≈ 12 weeks before 15 Jan.
 Fallback venues are not recommended until the above is verified.
+
+## Re-check 2026-10-18 (session 2)
+Direct fetch of ijcnn.org failed (host unresolvable via WebFetch; proxy 403 via curl). Web search again returned the same split:
+workshop page 15 Jan 2027 vs third-party 31 Jan 2027; no regular-paper page limit, template, review, AI-policy or time zone found.
+Status unchanged: **UNVERIFIED**. Plan against 15 Jan 2027 until the main CFP is read by the researcher.
