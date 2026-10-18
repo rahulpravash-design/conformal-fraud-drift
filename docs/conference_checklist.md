@@ -19,3 +19,12 @@ workshop page 15 Jan 2027 vs third-party 31 Jan 2027; no regular-paper page limi
 Status unchanged: **UNVERIFIED**. Plan against 15 Jan 2027 until the main CFP is read by the researcher.
 
 2026-10-18 session 3: no new official evidence (ijcnn.org unresolvable by WebFetch; curl 000). Researcher: please paste the main-track CFP text. No track/workshop chosen yet; main conference track assumed, unconfirmed.
+
+## Session 4 (2026-10-18 ~13:45 UTC) — search snippets of official ijcnn.org pages; pages themselves NOT fetchable (WebFetch ENOTFOUND ijcnn.org)
+Official-domain URLs surfaced by search (to be opened by the researcher): ijcnn.org/2027/authors/call-for-papers · /2027/authors/initial-author-instructions · /2027/events/regular-paper-submissions · /2027/general-faq · /2027/full-paper-authors-instructions.
+Snippet-level claims, all UNVERIFIED until the pages are read:
+- Review: double-blind; anonymous author block required. Submission via Microsoft CMT, PDF only; originality + plagiarism check.
+- Page limit: snippets conflict — 6 pages incl. figures/tables/references/appendices (up to 4 extra pages at $100/page) vs "4–6 pages incl. references" vs 7 pages on a page with unfilled "[ADD DATE]" placeholders (likely leftover template). Most consistent figure: 6 + paid extras. Format: IEEE two-column.
+- Dates: "final accepted papers + registration" 12 Apr 2027 (snippet); FAQ says submission opening dates TBD. **Regular-paper submission deadline and time zone still not established**; 15 Jan vs 31 Jan conflict stands.
+- Generative-AI/authorship policy: nothing found. Track: main conference assumed.
+Impact: draft skeleton should target ~6 pages and anonymised authorship; do not hard-code a deadline.

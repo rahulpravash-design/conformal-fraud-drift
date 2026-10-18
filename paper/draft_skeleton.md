@@ -1,5 +1,5 @@
 # [Provisional title] Does Conformal Fraud Detection Keep Its Promise Under Drift?
-**DRAFT SKELETON — NO RESULTS EXIST.** Every `[PENDING: ...]` marker is an unfilled claim. Template/page limit: unverified (IJCNN CFP not read).
+**DRAFT SKELETON — NO RESULTS EXIST.** Every `[PENDING: ...]` marker is an unfilled claim. Template/page limit: unverified; snippets suggest 6 pages IEEE two-column, double-blind (see docs/conference_checklist.md).
 
 ## Abstract
 [PENDING: written last, from frozen results only.]

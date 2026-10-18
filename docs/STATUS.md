@@ -23,3 +23,6 @@
 - github.com, kaggle.com, ijcnn.org: blocked/unresolvable from this sandbox. `data/raw/` empty. Only the official README text was readable via WebFetch (Kaggle is the stated route; no filenames; license text not retrievable).
 - Not done (blocked): dataset audit, split validation on real data, real experiment, paper reading, CFP verification. No results exist.
 - Windows download steps added to data/README.md.
+
+## Session 4 (2026-10-18)
+Repo verified at 458983f, clean; 37 tests pass (synthetic only). `data/raw/` still empty; kaggle.com/ijcnn.org/arxiv.org unreachable; github.com 403 via curl. No audit/experiment run; protocol v1 NOT frozen. Venue snippets added to conference_checklist.md (unverified).
